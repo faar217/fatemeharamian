@@ -1,0 +1,86 @@
+body {
+    font-family: 'Source Sans Pro','Libre Baskerville', Libre, Georgia, Times, serif; /*Arial, sans-serif;*/
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #404040;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px; /* Increase the font size as desired */
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+h2 {
+    font-size: 30px; /* Header font size */
+    font-weight: bold;
+    color: #333;
+}
+
+h3 {
+    font-size: 18px; /* Sub-header font size */ 
+    font-weight: bold;
+}
+p {
+    color: #404040; /* This sets the font color to a dark gray */
+    text-align: justify; /* This justifies the paragraph text */
+    font-size: 16px;
+}
+.paper {
+    margin-bottom: 50px; /* Adjust the value as needed */
+}
+.paper h3 {
+    font-size: 18px; /* Paper title font size */
+    font-weight: bold; /* Make paper titles bold */
+}
+
+.paper p {
+    font-size: 16px; /* Paper content font size */
+    margin: 10px 0;
+}
+
+.paper strong {
+    font-weight: bold; /* Make the word 'Abstract' bold */
+}
+
+/* Remove the .paper .abstract class since it's no longer needed */
+
+.section-divider {
+    border: 0;
+    height: 2px; /* Divider thickness */
+    background-image: linear-gradient(to right, transparent, #333, transparent);
+    margin: 20px 0; /* Space above and below the divider */
+}
+
+
+.paper .abstract {
+    font-style: normal;
+}
+ 

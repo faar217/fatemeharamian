@@ -1,0 +1,115 @@
+body {
+    font-family: 'Source Sans Pro', 'Libre Baskerville', Libre, Georgia, Times, serif; /*Arial, sans-serif;*/
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #404040;
+}
+
+.navbar {
+    display: flex; /* Use flexbox for the navbar */
+    justify-content: center; /* Center the navigation items horizontally */
+    background-color: #333;
+    padding: 14px 0; /* Adjust padding as needed */
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 20px; /* Adjust side padding as needed */
+    text-decoration: none;
+    font-size: 20px; /* Increase the font size as desired */
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-column, .right-column {
+    padding: 20px;
+}
+
+.left-column {
+    flex: 1;
+    max-width: 600px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+h2 {
+    font-size: 30px; /* Header font size */
+    font-weight: bold;
+    color: #333;
+}
+
+h3 {
+    font-size: 18px; /* Sub-header font size */ 
+    font-weight: bold;
+}
+.profile-pic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.right-column {
+    flex: 2;
+}
+
+.bio, .aims {
+    margin-bottom: 20px;
+}
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-top: 1px solid #ccc; /* Adds a subtle separator line */
+}
+
+.contact-info, .address {
+    margin-bottom: 20px;
+}
+
+.contact-info p, .address p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.contact-info button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.contact-info button:hover {
+    background-color: #555;
+}
+
+.profile-pic {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Adjust this value as needed to add bottom margin */
+}
+p {
+    color: #404040; /* This sets the font color to a dark gray */
+    text-align: justify; /* This justifies the paragraph text */
+    font-size: 16px;
+}
